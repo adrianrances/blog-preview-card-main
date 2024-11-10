@@ -1,0 +1,60 @@
+main {
+  background-color: var(--yellow);
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.cardBox {
+  background-color: var(--white);
+  min-height: 15em;
+  min-width: 15em;
+  border-radius: 12px;
+  border: 1px solid var(--gray-950);
+  box-shadow: 10px 10px var(--gray-950);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.imgBox img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.learning {
+  background-color: var(--yellow);
+  border-radius: 12px;
+  width: fit-content;
+  font-weight: 800;
+  padding: 0.5em 1em;
+}
+.foundations {
+  font-weight: 800;
+  font-size: 1.7em;
+}
+.foundations:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+.cardText {
+  color: var(--gray-500);
+}
+.photo {
+  width: 2em;
+  height: auto;
+}
+.cardUsername {
+  font-weight: 800;
+}
+.cardUserBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.6em;
+}
+.cardDate {
+  margin-top: -0.2em;
+}
